@@ -1,0 +1,32 @@
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+func main() {
+
+	// var m sync.Mutex
+
+	counter := 0
+
+	x := 10
+
+	var wg sync.WaitGroup
+	wg.Add(x)
+
+	for i := 0; i < x; i++ {
+		go func() {
+			// m.Lock()
+			counter++
+			fmt.Println(counter)
+			wg.Done()
+			// m.Unlock()
+		}()
+	}
+	wg.Wait()
+	fmt.Println(counter)
+	fmt.Println("done")
+// out of order w/o mutex
+}
