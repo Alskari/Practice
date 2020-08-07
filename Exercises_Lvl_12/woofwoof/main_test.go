@@ -1,4 +1,4 @@
-package dog
+package woofwoof
 
 import (
 	"fmt"

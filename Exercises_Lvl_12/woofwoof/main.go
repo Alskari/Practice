@@ -1,4 +1,4 @@
-//package woofwoof provides functionality for understanding woofers.
+//Package woofwoof provides functionality for understanding woofers.
 package woofwoof
 
 //Years converts human years to woofwoof years
