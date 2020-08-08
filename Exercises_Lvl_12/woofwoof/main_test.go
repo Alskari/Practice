@@ -30,14 +30,14 @@ func ExampleYearsTwo() {
 
 func TestYears(t *testing.T) {
 	n := Years(10)
-	if n != 79 {
+	if n != 70 {
 		t.Error("got", n, "want", 70)
 	}
 }
 
 func TestYearsTwo(t *testing.T) {
 	n := YearsTwo(10)
-	if n != 79 {
+	if n != 70 {
 		t.Error("got", n, "want", 70)
 	}
 }
