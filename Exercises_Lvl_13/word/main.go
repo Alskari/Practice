@@ -1,10 +1,9 @@
+//Package word blah blah
 package word
 
 import "strings"
 
-//increments maps
-// no need to write an example for this one
-// writing a test for this one is a bonus challenge; harder
+// UseCount creates a map of words used in a string, counting how many each is used
 func UseCount(s string) map[string]int {
 	xs := strings.Fields(s)
 	m := make(map[string]int)
@@ -14,7 +13,8 @@ func UseCount(s string) map[string]int {
 	return m
 }
 
+// Count returns the number of different words in a string
 func Count(s string) int {
-	// write the code for this func
-	return 1
+	xs := strings.Fields(s)
+	return len(xs)
 }
