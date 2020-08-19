@@ -1,0 +1,16 @@
+div{
+  width: 400px;
+  height: 200px;
+  background-color: darkgrey;
+  border: 10px dashed red;
+  border-radius: 100px;
+  margin: 20px auto;
+}
+
+.seconddiv{
+  box-sizing: border-box;
+  background-image: url(https://www.weaponoutfitters.com/media/catalog/product/cache/1/image/900x800/9df78eab33525d08d6e5fb8d27136e95/v/a/valkyrie_sample.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
