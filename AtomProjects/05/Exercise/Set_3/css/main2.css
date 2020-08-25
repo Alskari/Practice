@@ -1,4 +1,4 @@
-{
+*{
   background-color: inherit;
   display: block;
   margin: 0;
@@ -11,16 +11,16 @@ title{
 }
 
 html{
-  background-color: rgb(59, 59, 59);
+  background-color: darkblue;
 }
 
 body{
-  background-color: darkgrey;
+  background-color: green;
   margin: auto auto;
   box-sizing: border-box;
   border: 5px solid black;
   width: 60%;
-  height: 1600px;
+  height: 1200px;
 }
 
 img{
@@ -51,37 +51,4 @@ p{
   margin: 25px;
   box-sizing: border-box;
   background-color: inherit;
-}
-
-p::first-letter{
-  font-size: 40px;
-  font-weight: bolder;
-}
-
-p::first-line{
-  font-weight: bolder;
-}
-
-.testy{
-  color: darkred;
-}
-
-[target]{
-  border: 1px solid darkred;
-}
-
-a:link{
-  color: green;
-}
-
-a:visited{
-  color: blue;
-}
-
-a:hover{
-  color: yellow;
-}
-
-a:active{
-  color: darkred;
 }
