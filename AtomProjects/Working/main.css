@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-radius: 25%;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: auto auto;
+}
+
+a{
+  padding: .5rem;
+  border: 2px solid black;
+  border-radius: 25%;
+  display: inline-block;
+  text-decoration: none;
+  width: inherit;
+  height: inherit;
+}
+
+li:hover{
+  background-color: darkgreen;
+}
