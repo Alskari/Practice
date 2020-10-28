@@ -4,3 +4,9 @@ h1{
   font-size: 2rem;
 
 }
+
+
+div{
+  box-sizing: border-box;
+  width: 33.3%;
+}
