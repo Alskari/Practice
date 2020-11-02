@@ -1,0 +1,41 @@
+ul {
+    list-style: none;
+    background: slategrey;
+    width: 100%
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 0;
+    color: black;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+a:hover {
+    background: royalblue;
+}
+
+li:last-child {
+    border-bottom: none;
+    // background-color: red;
+}
+
+header{
+  background: black;
+}
+
+aside.left{
+  background: lightgrey;
+}
+
+aside.right{
+  background: darkgrey;
+}
+
+footer{
+  background: slategrey;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}

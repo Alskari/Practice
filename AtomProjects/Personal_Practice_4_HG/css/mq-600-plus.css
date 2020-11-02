@@ -1,0 +1,30 @@
+
+article{
+  width: 70%;
+  order: 2;
+}
+
+aside{
+  width: 15%;
+}
+
+aside.left{
+  order: 1;
+}
+
+aside.right{
+  order: 3;
+}
+
+footer{
+  order: 5;
+}
+
+ul {
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  }
+
+a {
+  padding: 1em;
+}

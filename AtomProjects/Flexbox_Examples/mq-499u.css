@@ -1,0 +1,11 @@
+div.navigate{
+  font-size: 2rem;
+  width: 100%;
+  justify-content: center;
+  border-top: 1px solid rgb(75,75,85);
+  border-bottom: 1px solid rgb(75,75,75);
+}
+
+article{
+  font-size: 1.2rem;
+}

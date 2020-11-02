@@ -1,0 +1,75 @@
+html, body, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+header, aside, footer{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+ul {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+a{
+  display: block;
+}
+
+html{
+  background-color: rgb(90, 90, 90);
+}
+
+head{
+  visibility: collapse;
+}
+
+div{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+div.above{
+  border: .25rem solid black;
+  height: 50vh;
+  max-height: 300px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.tacticalfanboy.com%2Fwp-content%2Fuploads%2F2013%2F11%2FTank-and-Jet-Side-2-FDE-rifles-2.jpg&f=1&nofb=1");
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: cover;
+}
+
+img{
+  display: flex;
+  height: 300px;
+  width: 400px;
+  border-radius: 25%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+p{
+  padding: 25px;
+  font-size: 1rem;
+  font-weight: 400;
+  text-indent: -.5rem;
+}
+
+p::first-letter{
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
+
+p::first-line{
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: .05rem;
+}
